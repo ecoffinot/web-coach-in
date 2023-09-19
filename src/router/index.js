@@ -1,5 +1,4 @@
 import Home from "@/components/Home.vue";
-import {computed, ref} from "vue";
 import NotFound from "@/components/NotFound.vue";
 import {createRouter, createWebHistory} from "vue-router";
 
