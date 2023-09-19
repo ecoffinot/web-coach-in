@@ -1,9 +1,10 @@
-<script setup>
-</script>
-
 <template>
-<h1>wow</h1>
+  <p>App</p>
 </template>
+
+<script setup>
+
+</script>
 
 <style scoped>
 
