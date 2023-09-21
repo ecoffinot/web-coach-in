@@ -1,9 +1,184 @@
 @import "tailwindcss/base";
-
 @import "tailwindcss/components";
-
 @import "tailwindcss/utilities";
 
-body {
-  font-family: "Calibri Light";
+/*  `ROOT`
+------------------------------------------------------------------*/
+
+:root {
+    --var-light: #ffdda1;
+    --var-light-blue: #06bcc1;
+    --var-blue: #0892a5;
+    --var-dark-blue: #122c34;
+    --var-brown: #725752;
+    --var-dark-grey : #9AA899;
+    --var-white : #FFFFFF;
 }
+
+html {
+}
+
+body {
+    background: linear-gradient(var(--var-light-blue) 20%, var(--var-blue) 80%, var(--var-dark-blue));
+    font-family: "Calibri Light";
+    font-size: 15px;
+    height: 100vh;
+    color: white;
+    padding : 1.5rem 3rem 3rem 1.5rem;
+}
+
+
+/*  `TYPOGRAPHY` (Base)
+------------------------------------------------------------------*/
+
+body {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: ;
+}
+
+h5 {
+    font-size: ;
+}
+
+h6 {
+    font-size: ;
+}
+
+p,
+ol,
+ul,
+dl,
+address {
+
+}
+
+ul,
+ol {
+
+}
+
+ul {
+}
+
+ol {
+}
+
+li ul,
+li ol {
+    font-size: ;
+    margin: ;
+}
+
+dl,
+dd {
+}
+
+dt {
+}
+
+blockquote {
+}
+
+b,
+strong {
+}
+
+i,
+em {
+}
+
+sup,
+sub {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+}
+
+sup {
+    top: -.5em;
+}
+
+sub {
+    bottom: -.25em;
+}
+
+address {
+}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+pre,
+code {
+    font: .875em 'andale mono', 'lucida console', monospace;
+    line-height: 1.5;
+}
+
+small {
+    font-size: ;
+}
+
+a{
+    font-weight: bold;
+}
+
+
+/*  `BASE STYLES`
+------------------------------------------------------------------*/
+
+/*-- ~LINKS --*/
+
+/*-- ~FIGURES & IMAGES --*/
+
+/*-- ~TABLES --*/
+
+/*-- ~FORMS --*/
+
+
+/*  `HEADER`
+------------------------------------------------------------------*/
+
+
+/*  `FOOTER`
+------------------------------------------------------------------*/
+
+
+/*  `MAIN STRUCTURE`
+------------------------------------------------------------------*/
+
+
+/*  `GENERAL CONTENT`
+------------------------------------------------------------------*/
+
+
+/*  `SPECIFIC PAGE`
+------------------------------------------------------------------*/
+
+
+/*  `UTILITY STYLES`
+------------------------------------------------------------------*/

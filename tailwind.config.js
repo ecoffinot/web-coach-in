@@ -6,12 +6,31 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
+    colors: {
+      'light': '#ffdda1',
+      'light-blue': '#06bcc1',
+      'blue': '#0892a5',
+      'dark-blue': '#122c34',
+      'brown': '#725752',
+      'light-grey' : '#9AA899',
+      'white' : '#FFFFFF'
+    },
     borderRadius : {
       none: "0",
       sm: "0.25rem",
       DEFAULT: "0.5rem",
       lg: "1rem",
       xl: "2rem"
+    },
+    fontFamily: {
+      sans: ['Calibri Light', 'sans-serif'],
+      serif: ['Calibri Light', 'serif'],
     },
     extend: {
       spacing: {
