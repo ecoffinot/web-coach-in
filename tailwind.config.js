@@ -2,7 +2,7 @@
 module.exports = {
   prefix: "tw-",
   content: [
-    "./public/index.html",
+    "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
@@ -30,3 +30,4 @@ module.exports = {
   },
   plugins: [],
 }
+
