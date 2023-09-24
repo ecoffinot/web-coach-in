@@ -1,5 +1,5 @@
 <template>
-  <div class="tw-relative tw-flex tw-items-center h-12 tw-rounded-lg tw-bg-dark-blue tw-overflow-hidden">
+  <div class="tw-relative tw-flex tw-items-center h-12 tw-rounded-lg tw-bg-dark-blue tw-overflow-hidden tw-px-2 tw-py-2">
     <div class="tw-grid tw-place-items-center tw-h-full tw-w-12">
       <svg xmlns="http://www.w3.org/2000/svg" class="tw-h-6 tw-w-6" fill="none" viewBox="0 0 24 24"
            stroke="currentColor">
