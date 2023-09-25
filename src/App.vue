@@ -14,6 +14,9 @@
       <SearchBar></SearchBar>
     </div>
   </header>
+  <main>
+    <Presentation></Presentation>
+  </main>
   <router-view></router-view>
 </template>
 
@@ -21,6 +24,7 @@
 import { ref } from "vue";
 import SearchBar from "@/components/SearchBar.vue";
 import Button from "@/components/Button.vue";
+import Presentation from "@/components/Presentation.vue";
 
 
 const links = [

@@ -43,7 +43,8 @@ module.exports = {
         "spacer-6": "3rem",
         "spacer-7": "4rem",
         "spacer-8": "4.5rem",
-        "spacer-9": "6rem"
+        "spacer-9": "6rem",
+        "spacer-10" : "12rem"
       }
     },
   },
