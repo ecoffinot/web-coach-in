@@ -18,6 +18,7 @@
     <Presentation></Presentation>
   </main>
   <router-view></router-view>
+  <Footer></Footer>
 </template>
 
 <script setup>
@@ -25,6 +26,7 @@ import { ref } from "vue";
 import SearchBar from "@/components/SearchBar.vue";
 import Button from "@/components/Button.vue";
 import Presentation from "@/components/Presentation.vue";
+import Footer from "@/components/Footer.vue";
 
 
 const links = [
